@@ -15,20 +15,9 @@
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 5px groove black;
     border-radius: 50% 50% 0;
-}
-
-.box1 {
-    background-color: lightblue;
-}
-
-.box2 {
-    background-color: lightcoral;
-}
-
-.box3 {
-    background-color: lightgreen;
+    background: linear-gradient(90deg, red, orange, green);
 }
