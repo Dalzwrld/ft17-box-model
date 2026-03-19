@@ -21,3 +21,19 @@ The root element can be modified to change the default measurement of a relative
 
 This is overridden in the html{} selector in the css code.
 
+
+<!-- Flexbox -->
+
+Flex layouts are usually displayed as rows or columns.
+
+Flexbox has two axes, the main axis and the cross axis. Their positions are determined by the flex-direction property.
+
+The flex items move along the main axis as a group, so if the main axis is a row, they will align themselves vertically along the main axis. This makes the horizontal axis the cross axis. This works in the opposite way for the column as the main axis.
+
+A normal div aligns its items vertically, but flex-direction allows us to change that.
+
+A flex-container is a parent element that allows a user to manipulate and align its children in various ways. This is done by first using a display of flex on the parent.
+
+The default behavior of flex is row.
+
+Justify-content & Align-items heavily rely on the two axes. Justify-content brings the content to the top center (main axis), while align-items brings them to the middle of the page (cross-axis).
