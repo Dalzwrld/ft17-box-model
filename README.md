@@ -24,7 +24,7 @@ This is overridden in the html{} selector in the css code.
 
 <!-- Flexbox -->
 
-Flex layouts are usually displayed as rows or columns.
+Flex layouts are usually displayed as rows or columns. They are applied in block elements.
 
 Flexbox has two axes, the main axis and the cross axis. Their positions are determined by the flex-direction property.
 
@@ -37,3 +37,12 @@ A flex-container is a parent element that allows a user to manipulate and align 
 The default behavior of flex is row.
 
 Justify-content & Align-items heavily rely on the two axes. Justify-content brings the content to the top center (main axis), while align-items brings them to the middle of the page (cross-axis).
+
+
+<!-- Spacing -->
+
+By using a padding/margin value of auto and setting a specific amount of max-width, we allow the element(s) to take up equal space automatically from left to right.
+
+It's useful in providing a specific 
+
+Eg [padding: 0 auto;] and [max-width: 1200px;] allows the element(s) to take up equal horizontal space, bringing it to the center. It takes up no vertical space since it's set to 0.
