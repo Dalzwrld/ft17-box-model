@@ -43,6 +43,4 @@ Justify-content & Align-items heavily rely on the two axes. Justify-content brin
 
 By using a padding/margin value of auto and setting a specific amount of max-width, we allow the element(s) to take up equal space automatically from left to right.
 
-It's useful in providing a specific 
-
 Eg [padding: 0 auto;] and [max-width: 1200px;] allows the element(s) to take up equal horizontal space, bringing it to the center. It takes up no vertical space since it's set to 0.
